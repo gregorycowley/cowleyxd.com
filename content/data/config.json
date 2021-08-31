@@ -1,26 +1,24 @@
 {
-    "title": "Stackbit Vanilla Theme",
+    "title": "CowleyXD.com",
     "path_prefix": "/",
-    "favicon": "images/avatar.png",
+    "favicon": "images/gc_logo_2020.png",
     "header": {
-        "title": "Stackbit Vanilla",
+        "title": "Learning Interaction Design",
         "has_nav": true,
-        "nav_links": [
-            {
+        "nav_links": [{
                 "label": "Home",
                 "url": "/"
             },
             {
-                "label": "Generic",
-                "url": "/generic/"
+                "label": "CCA",
+                "url": "/cca/"
             }
         ]
     },
     "footer": {
         "content": "&copy; Gregory Cowley 2021",
         "has_social": true,
-        "social_links": [
-            {
+        "social_links": [{
                 "label": "Twitter",
                 "url": "https://twitter.com/gregorycowley",
                 "new_window": true

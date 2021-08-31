@@ -1,5 +1,4 @@
 const sourcebit = require('sourcebit');
-
 const sourcebitConfig = require('./sourcebit.js');
 
 sourcebit.fetch(sourcebitConfig);
@@ -7,7 +6,7 @@ sourcebit.fetch(sourcebitConfig);
 module.exports = {
     trailingSlash: true,
     devIndicators: {
-        autoPrerender: false
+        autoPrerender: false,
     },
     webpack: (config, { webpack }) => {
         // Tell webpack to ignore watching content files in the content folder.
@@ -17,5 +16,5 @@ module.exports = {
         // whole page
         config.plugins.push(new webpack.WatchIgnorePlugin([[/\/content\//]]));
         return config;
-    }
+    },
 };

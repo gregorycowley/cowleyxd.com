@@ -1,17 +1,16 @@
 {
-  "public": true,
-  "cleanUrls": true,
-  "github": {
-    "enabled": true
-  },
-  "rewrites": [
-    {
-      "source": "/cca/",
-      "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca"
+    "public": true,
+    "cleanUrls": true,
+    "github": {
+        "enabled": true
     },
-    {
-      "source": "/cca/:path*",
-      "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca/:path*"
-    }
-  ]
+    "rewrites": [{
+            "source": "/cca/",
+            "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca"
+        },
+        {
+            "source": "/cca/:path*",
+            "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca/:path*"
+        }
+    ]
 }

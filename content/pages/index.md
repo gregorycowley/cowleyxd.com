@@ -3,8 +3,8 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    title: Gregory Cowley IxD.
-    subtitle: '### Interaction Design.'
+    title: Gregory Cowley IxD
+    subtitle: '### Interaction Design'
     image: images/gc_logo_2020.png
     image_alt: Author avatar
   - title: Text
