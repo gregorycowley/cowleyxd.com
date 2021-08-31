@@ -3,9 +3,9 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    title: This is a hero headline.
-    subtitle: '### This is a super-cool hero subhead.'
-    image: images/avatar.png
+    title: Gregory Cowley IxD.
+    subtitle: '### Interaction Design.'
+    image: images/gc_logo_2020.png
     image_alt: Author avatar
   - title: Text
     section_id: intro
@@ -62,30 +62,30 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
 seo:
-  title: Stackbit Vanilla Theme
-  description: The preview of the Vanilla theme
+  title: Gregory Cowley IxD
+  description: Interaction Design by Gregory Cowley
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Vanilla Theme
+      value: Gregory Cowley IxD
       keyName: property
     - name: 'og:description'
-      value: The preview of the Vanilla theme
+      value: Gregory Cowley IxD
       keyName: property
     - name: 'og:image'
-      value: images/vanilla-preview.png
+      value: images/gc_logo_2020.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Vanilla Theme
+      value: Gregory Cowley IxD
     - name: 'twitter:description'
-      value: The preview of the Vanilla theme
+      value: Gregory Cowley IxD
     - name: 'twitter:image'
-      value: images/vanilla-preview.png
+      value: images/gc_logo_2020.png
       relativeUrl: true
 layout: advanced
 ---
