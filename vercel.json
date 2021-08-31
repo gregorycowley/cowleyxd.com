@@ -1,6 +1,9 @@
 {
-  ...
-
+  "public": true,
+  "cleanUrls": true,
+  "github": {
+    "enabled": true
+  },
   "rewrites": [
     {
       "source": "/cca/",
