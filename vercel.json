@@ -1,0 +1,14 @@
+{
+  ...
+
+  "rewrites": [
+    {
+      "source": "/cca/",
+      "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca"
+    },
+    {
+      "source": "/cca/:path*",
+      "destination": "https://publish.obsidian.md/serve?url=cowleyxd.com/cca/:path*"
+    }
+  ]
+}
